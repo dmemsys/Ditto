@@ -1,0 +1,29 @@
+{
+ "role": "SERVER",
+ "conn_type": "IB",
+ "server_id": 0,
+ "udp_port": 2333,
+ "memory_num": 1,
+ "memory_ip_list": [
+  "10.176.37.64"
+ ],
+ "ib_dev_id": 0,
+ "ib_port_id": 1,
+ "hash_type": "DEFAULT",
+ "eviction_type": "EVICT_SAMPLE_NAIVE",
+ "eviction_priority": "EVICT_PRIO_LRU",
+ "num_samples": 5,
+ "server_base_addr": "0x10000000",
+ "server_data_len": 10737418240,
+ "segment_size": 1048576,
+ "block_size": 256,
+ "client_local_size": 67108864,
+ "core_id": 0,
+ "num_cores": 1,
+ "testing": false,
+ "use_local_pool": false,
+ "use_freq_cache": true,
+ "freq_cache_size": 10485760,
+ "use_async_weight": false,
+ "num_server_threads": 4
+}

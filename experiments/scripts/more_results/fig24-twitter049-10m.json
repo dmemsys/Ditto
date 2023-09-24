@@ -1,0 +1,17 @@
+{
+    "sample-adaptive": {
+        "tpt": 3159641.0666666664
+    },
+    "sample-adaptive-async-nfc": {
+        "tpt": 3170980.016666667
+    },
+    "sample-adaptive-sync-nfc": {
+        "tpt": 2905342.8166666664
+    },
+    "sample-adaptive-heavy": {
+        "tpt": 2824284.283333333
+    },
+    "sample-adaptive-naive": {
+        "tpt": 2296433.4000000004
+    }
+}

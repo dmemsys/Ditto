@@ -1,0 +1,14 @@
+port {}
+cluster-enabled yes
+cluster-config-file nodes.conf
+cluster-node-timeout 5000
+# disable disk snapshot
+save ""
+daemonize yes
+loglevel notice
+logfile log-{}
+pidfile pid
+repl-diskless-sync yes
+repl-diskless-sync-delay 0
+bind {} 127.0.0.1
+protected-mode no

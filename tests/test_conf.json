@@ -1,0 +1,32 @@
+{
+    "role": "SERVER",
+    "conn_type": "IB",
+    "server_id": 0,
+    "udp_port": 2333,
+    "memory_num": 2,
+    "memory_ip_list": [
+        "10.10.10.1",
+        "10.10.10.2"
+    ],
+
+    "ib_dev_id": 0,
+    "ib_port_id": 1,
+
+    "hash_type": "DEFAULT",
+
+    "eviction_type": "EVICT_SAMPLE_LRU",
+    "num_samples": 5,
+    
+    "server_base_addr": "0x10000000",
+    "server_data_len": 2147483648,
+    "segment_size": 67108864,
+    "block_size": 256,
+    "is_active_server": false,
+
+    "client_local_size": 67108864,
+
+    "core_id": 0,
+    "num_cores": 1,
+
+    "testing": true
+}

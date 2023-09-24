@@ -1,0 +1,13 @@
+build/*
+.vscode/*
+experiments/workloads/cluster*
+experiments/workloads/twitter*
+experiments/workloads/wiki
+experiments/workloads/ycsb*
+experiments/workloads/fiu*
+experiments/workloads/mix*
+experiments/workloads/changing*
+experiments/workloads/ibm*
+experiments/workloads/cphy*
+scripts/install/*
+*__pycache__
